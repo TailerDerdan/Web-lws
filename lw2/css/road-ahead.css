@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-block{
+    height: 360px;
+    background-size: 100%;
+    margin: 0;
+}
+
+.top-block__header{
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 0 26px;
+}
+
+.top-block__header-text{
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #2E2E2E;
+}
+
+.top-block__header-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 376.61px;
+    height: 100%;
+    align-items: center;
+}
+
+.top-block__header-menu-text{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #2E2E2E;
+}
+
+.top-block__text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-block__text-header{
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    margin: 100px 0 10px;
+}
+
+.top-block__text-quote
+{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.top-block__menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px 0;
+    padding: 20px;
+}
+
+.top-block__menu-text{
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.main__img{
+    width: 100%;
+    background-size: 100%;
+    margin-bottom: 140px;
+}
+
+.main__text{
+    width: 67%;
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #101315;
+}
+
+.main-block-high__header-text{
+    border-bottom: 1px solid #DEDEDE;
+    display: inline-block;
+    padding: 0 0 20px;
+}
+
+.footer{
+    background: url('../image/Form.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*height: 378px;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-block-high__header{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 50px 0 0;
+    color: #EFEFEF;
+}
+
+.footer__form{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 139px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    /*justify-content: center;*/
+}
+
+.form__input_1{
+    width: 75%;
+    height: 100%;
+    padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #817F83;
+    border: 0;
+}
+
+.form__input_2{
+    width: 25%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.28);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F8F8F8;
+    border: 0;
+}
+
+.footer__header-text{
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.bottom-block__header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 26px 0 26px;
+    background: rgba(35, 47, 56, 0.6);
+}
+
+.footer__header-menu-text{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
