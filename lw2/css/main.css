@@ -403,6 +403,7 @@ body{
     line-height: 14px;
     color: #F8F8F8;
     border: 0;
+    cursor: pointer;
 }
 
 .bottom-block__header{
